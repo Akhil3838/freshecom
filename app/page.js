@@ -705,7 +705,7 @@ export default function Home() {
             <a
               className="nav-link dropdown-toggle"
               href="/"
-              data-bs-toggle="dropdown"
+              // data-bs-toggle="dropdown"
             >
               Home
             </a>
@@ -716,7 +716,7 @@ export default function Home() {
             <a
               className="nav-link dropdown-toggle"
               href="/shop"
-              data-bs-toggle="dropdown"
+              // data-bs-toggle="dropdown"
             >
               Shop
             </a>
@@ -727,7 +727,7 @@ export default function Home() {
             <a
               className="nav-link dropdown-toggle ps-xl-2 ps-0"
               href="/about-us"
-              data-bs-toggle="dropdown"
+              // data-bs-toggle="dropdown"
             >
               About Us
             </a>
@@ -774,7 +774,7 @@ export default function Home() {
             <a
               className="nav-link dropdown-toggle"
               href="/contact-us"
-              data-bs-toggle="dropdown"
+              // data-bs-toggle="dropdown"
             >
               Contact Us
             </a>
