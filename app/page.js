@@ -704,57 +704,35 @@ export default function Home() {
           <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
-              href="javascript:void(0)"
+              href="/"
               data-bs-toggle="dropdown"
             >
               Home
             </a>
 
-            <ul className="dropdown-menu">
-              <li><a className="dropdown-item" href="index.html">Kartshop</a></li>
-              <li><a className="dropdown-item" href="index-2.html">Sweetshop</a></li>
-              <li><a className="dropdown-item" href="index-3.html">Organic</a></li>
-              <li><a className="dropdown-item" href="index-4.html">Supershop</a></li>
-              <li><a className="dropdown-item" href="index-5.html">Classic shop</a></li>
-              <li><a className="dropdown-item" href="index-6.html">Furniture</a></li>
-              <li><a className="dropdown-item" href="index-7.html">Search Oriented</a></li>
-              <li><a className="dropdown-item" href="index-8.html">Category Focus</a></li>
-              <li><a className="dropdown-item" href="index-9.html">Fashion</a></li>
-              <li><a className="dropdown-item" href="index-10.html">Book</a></li>
-              <li><a className="dropdown-item" href="index-11.html">Digital</a></li>
-            </ul>
           </li>
 
           <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
-              href="javascript:void(0)"
+              href="/shop"
               data-bs-toggle="dropdown"
             >
               Shop
             </a>
 
-            <ul className="dropdown-menu">
-              <li><a className="dropdown-item" href="shop-category-slider.html">Shop Category Slider</a></li>
-              <li><a className="dropdown-item" href="shop-category.html">Shop Category Sidebar</a></li>
-              <li><a className="dropdown-item" href="shop-banner.html">Shop Banner</a></li>
-              <li><a className="dropdown-item" href="shop-left-sidebar.html">Shop Left Sidebar</a></li>
-              <li><a className="dropdown-item" href="shop-list.html">Shop List</a></li>
-              <li><a className="dropdown-item" href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
-              <li><a className="dropdown-item" href="shop-top-filter.html">Shop Top Filter</a></li>
-            </ul>
           </li>
 
           <li className="nav-item dropdown dropdown-mega">
             <a
               className="nav-link dropdown-toggle ps-xl-2 ps-0"
-              href="javascript:void(0)"
+              href="/about-us"
               data-bs-toggle="dropdown"
             >
-              Mega Menu
+              About Us
             </a>
 
-            <div className="dropdown-menu dropdown-menu-2">
+            {/* <div className="dropdown-menu dropdown-menu-2">
               <div className="row">
                 <div className="dropdown-column col-xl-3">
                   <h5 className="dropdown-header">Daily Vegetables</h5>
@@ -789,25 +767,25 @@ export default function Home() {
 
                 <div className="dropdown-column dropdown-column-img col-3"></div>
               </div>
-            </div>
+            </div> */}
           </li>
 
           <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
-              href="javascript:void(0)"
+              href="/contact-us"
               data-bs-toggle="dropdown"
             >
-              Blog
+              Contact Us
             </a>
-            <ul className="dropdown-menu">
+            {/* <ul className="dropdown-menu">
               <li><a className="dropdown-item" href="blog-detail.html">Blog Detail</a></li>
               <li><a className="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
               <li><a className="dropdown-item" href="blog-list.html">Blog List</a></li>
-            </ul>
+            </ul> */}
           </li>
 
-          <li className="nav-item dropdown">
+          {/* <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
               href="javascript:void(0)"
@@ -823,7 +801,7 @@ export default function Home() {
               <li><a className="dropdown-item" href="seller-grid.html">Seller Grid</a></li>
               <li><a className="dropdown-item" href="seller-grid-2.html">Seller Grid 2</a></li>
             </ul>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
@@ -853,14 +831,14 @@ export default function Home() {
 <div className="mobile-menu d-md-none d-block mobile-cart">
   <ul>
     <li className="active">
-      <a href="index.html">
+      <a href="/">
         <i className="iconly-Home icli"></i>
         <span>Home</span>
       </a>
     </li>
 
     <li className="mobile-category">
-      <a href="javascript:void(0)">
+      <a href="/shop">
         <i className="iconly-Category icli js-link"></i>
         <span>Category</span>
       </a>
@@ -881,7 +859,7 @@ export default function Home() {
     </li>
 
     <li>
-      <a href="cart.html">
+      <a href="/cart">
         <i className="iconly-Bag-2 icli fly-cate"></i>
         <span>Cart</span>
       </a>
